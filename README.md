@@ -1,16 +1,51 @@
-# nexchat
+NexChat
 
-A new Flutter project.
+NexChat is a Flutter-based real-time chat application with Firebase backend. It supports authentication, real-time messaging, online/offline status tracking, emojis, and more, providing a smooth and modern messaging experience.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+User authentication with Firebase Auth (email/password, Google sign-in, etc.)
 
-A few resources to get you started if this is your first Flutter project:
+Real-time chat powered by Cloud Firestore
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Online/offline status and last seen tracking
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Send and receive text messages and emojis
+
+Chat UI similar to popular messaging apps
+
+Grouped messages by date
+
+Scroll to the latest message automatically
+
+Responsive UI for mobile devices
+
+
+
+Getting Started
+Prerequisites
+
+Flutter SDK (latest stable version)
+
+Dart
+
+Firebase project setup
+
+IDE: VSCode / Android Studio
+1.Clone the repository:
+git clone https://github.com/your-username/nexchat.git
+2.Install dependencies:
+flutter pub get
+3.Setup Firebase:
+
+Create a Firebase project at Firebase Console
+
+Add Android/iOS apps and download google-services.json (Android) / GoogleService-Info.plist (iOS)
+
+Place them in the respective directories
+
+Enable Authentication and Firestore
+4.Run the app:
+flutter run
+
+
